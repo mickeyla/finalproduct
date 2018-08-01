@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background: #55d6aa;
+  background: black;
 }
 
 header::after {
@@ -45,21 +45,21 @@ nav li {
 }
 
 nav a {
-  color: #444;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
 }
 
 nav a:hover {
-  color: #000;
+  color: #E7AD99;
 }
 
 nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #444;
+  background-color: white;
 
   position: absolute;
   top: 0;
